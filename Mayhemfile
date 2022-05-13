@@ -1,0 +1,5 @@
+project: jacob-clemente/3dstool
+target: 3dstool
+
+cmds:
+  - cmd: 3dstool -x -f @@
