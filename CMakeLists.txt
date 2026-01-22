@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.5)
 project(3dstool)
 if(MSVC_VERSION EQUAL 1700 AND MSVC_IDE)
   set(CMAKE_GENERATOR_TOOLSET "v110_xp" CACHE STRING "Name of generator toolset." FORCE)
